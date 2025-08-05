@@ -13,7 +13,9 @@ Guide the user through the process of creating a new standardized Cline workflow
    
 2. Use the `ask_followup_question` command to ask the USER for a concise name for the workflow.
    
-3. Determine the appropriate filename using kebab-case format (e.g., `analyze-system-requirements.md`).
+3. Determine the appropriate filename using flatcase format (e.g., `analyzesystemrequirements`).
+   - All files in the workflow folder should be treated as markdown files by default if they do not have a file extension.
+   - Use flatcase for filenames (e.g., `analyzesystemrequirements`), not kebab-case.
 
 4. Inform the USER of the upcoming workflow file creation process and the main steps they will be asked to complete.
 
@@ -43,13 +45,13 @@ Guide the user through the process of creating a new standardized Cline workflow
 
 1. Determine if the `.clinerules/workflows` directory exists. If not, create it.
 
-2. Create a markdown file named `.clinerules/workflows/{{workflow-filename}}.md` with the following structure:
+2. Create a markdown file named `.clinerules/workflows/{{workflowfilename}}` (using flatcase, no extension unless explicitly provided). If the filename does not have an extension, treat it as a markdown file by default. The file should have the following structure:
    i. Task definition with name attribute
    ii. Task objective section
    iii. Detailed sequence steps section with proper formatting
    iv. Proper tool references and formatting conventions
 
-3. Use the `read_file` command to read the `.clinerules/workflow-template.md` file to ensure the new workflow follows all conventions.
+3. Use the `read_file` command to read the `.clinerules/workflowtemplate` file to ensure the new workflow follows all conventions.
 
 4. Use the `write_to_file` command to write the completed workflow file.
 
