@@ -115,5 +115,48 @@ This illustrates how Cline might use the tool iteratively.
 *   **FOCUS** on making progress towards a solution with each thought.
 *   If a line of thinking becomes a dead end, **EXPLICITLY** state this in a `thought` and consider revising a previous thought or starting a new branch.
 
-This guide should help Cline leverage the `sequentialthinking` MCP tool to its full potential.
+## 7. Installation and Setup
 
+**Only when Cline determines that the `sequentialthinking` tool is needed (based on sections 2 and 6 above), should it check for tool availability and offer installation if needed.**
+
+### 7.1 Tool Availability Check
+
+After determining that sequential thinking is required for the task, Cline should check if the Sequential Thinking MCP server is available by looking for it in the "Connected MCP Servers" section or by attempting to use the tool. If the tool is not available, Cline should:
+
+1. **Inform the user** that the Sequential Thinking MCP tool is not currently installed
+2. **Explain the benefits**: "The Sequential Thinking tool helps break down complex problems into manageable steps, allows for iterative thinking with revisions, and maintains context across multi-step reasoning processes."
+3. **Offer automated installation** by asking: "Would you like me to install the Sequential Thinking MCP server for you right now? I can set it up automatically."
+
+### 7.2 Automated Installation Process
+
+If the user agrees to installation, Cline should:
+
+1. **Load MCP documentation** using `load_mcp_documentation`
+2. **Read existing MCP settings** to preserve current configurations
+3. **Create necessary directories** if they don't exist
+4. **Add the server configuration** to cline_mcp_settings.json:
+   ```json
+   "github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking": {
+     "autoApprove": [],
+     "disabled": false,
+     "timeout": 60,
+     "type": "stdio",
+     "command": "npx",
+     "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+   }
+   ```
+5. **Test the installation** by attempting to use the tool
+6. **Confirm successful setup** to the user
+
+### 7.3 Manual Installation Fallback
+
+If the user prefers manual installation or automated installation fails, provide these instructions:
+
+1. Add the server configuration to your MCP settings file
+2. Use the NPX command: `npx -y @modelcontextprotocol/server-sequential-thinking`
+3. Restart your development environment if needed
+4. Verify the tool appears in "Connected MCP Servers"
+
+**Only proceed to use the `sequentialthinking` tool after confirming it's properly installed and available.**
+
+This guide should help Cline leverage the `sequentialthinking` MCP tool to its full potential.
