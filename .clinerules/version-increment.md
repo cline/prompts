@@ -1,9 +1,9 @@
 ---
 description: An intelligent workflow to automatically calculate and apply a new project version, update core files and documentation, and prepare a release commit.
 author: Frédéric Guigand
-version: 1.2
+version: 1.3
 tags: ["workflow", "release", "versioning", "semver", "changelog", "documentation", "automation"]
-globs: ["package.json", "app-config.*", "CHANGELOG.md", "README.md", "docs/**/*.md"]
+globs: ["package.json", "app-config.*", "CHANGELOG.md", "README.md", "docs/**/*.md", "versions.*json*"]
 ---
 
 # Workflow: Intelligent Project Versioning & Documentation
@@ -56,17 +56,20 @@ Before modifying any files, perform an internal verification and present a plan 
 
 Once the user confirms, proceed with the following precise file modifications.
 
-1.  **Update Central Version Source:**
-    - Locate and update the version number in the identified source file (`package.json`, `app-config.yaml`, etc.).
+1.  **Update Central Version Sources:**
+    - Locate and update the version number in `package.json`.
+    - Locate and update the version number and description in `versions.*`.
+    - Locate and update the version number and description in `app-config.*`.
 
 2.  **Update `CHANGELOG.md`:**
     - Create a new version heading below `[Unreleased]` using the format `## [X.Y.Z] - YYYY-MM-DD`.
     - Move the summarized changes from the `[Unreleased]` section to this new version section.
     - Update the version comparison link at the bottom of the file.
+    - **Update the `Version` and `Last Updated` comments** at the top of the file.
 
-3.  **Update `README.md` Version Badge:**
-    - Find the version badge in `README.md` and update the version number.
-    - **✅ Template:** `[![Version](https://img.shields.io/badge/version-NEW.VERSION.HERE-blue.svg)](CHANGELOG.md)`
+3.  **Update Documentation File Headers:**
+    - For all relevant documentation files (`README.md`, `TECHNICAL_GUIDE.md`, `DEVELOPER_GUIDE.md`, etc.), find and update the version badge and the `Version` / `Last Updated` comments in the header.
+    - **✅ Badge Template:** `[![Version](https://img.shields.io/badge/version-NEW.VERSION.HERE-blue.svg)](CHANGELOG.md)`
 
 ### Step 4: 🧠 Intelligently Update Project Documentation
 
