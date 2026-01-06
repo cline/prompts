@@ -2,6 +2,7 @@
 description: An uncompromising protocol for AI agents to produce elite-level, production-grade HTML, CSS, and JavaScript. This rule enforces a senior developer's mindset, focusing on a rigorous development process, security, performance, and maintainability.
 author: Frédéric Guigand
 version: 1.1
+category: "Web Development"
 tags: ["web-development", "html", "css", "javascript", "best-practices", "security", "performance", "maintainability", "protocol", "workflow"]
 globs: ["**/*.html", "**/*.css", "**/*.js"]
 ---

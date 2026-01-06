@@ -2,6 +2,7 @@
 description: An intelligent workflow to automatically calculate and apply a new project version, update core files and documentation, and prepare a release commit.
 author: Frédéric Guigand
 version: 1.2
+category: "Workflow"
 tags: ["workflow", "release", "versioning", "semver", "changelog", "documentation", "automation"]
 globs: ["package.json", "app-config.*", "CHANGELOG.md", "README.md", "docs/**/*.md"]
 ---

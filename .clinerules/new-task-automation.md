@@ -2,6 +2,7 @@
 description: Workflow for starting new task when context window reaches 50%
 author: https://github.com/cline
 version: 1.0
+category: "Cline Core"
 tags: ["context-management", "new-task"]
 globs: ["*"]
 ---

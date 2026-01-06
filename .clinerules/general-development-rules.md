@@ -1,3 +1,12 @@
+---
+description: Core principles and guidelines for LLM collaboration in project development
+author: Community
+version: 1.0
+category: "General Development"
+tags: ["guidelines", "collaboration", "best-practices", "core-behavior"]
+globs: ["*"]
+---
+
 # Project Collaboration Guidelines for LLM
 
 ## Core Principles

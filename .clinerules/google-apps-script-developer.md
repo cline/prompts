@@ -2,6 +2,7 @@
 description: The definitive master protocol for an elite Google Apps Script (GAS) developer, featuring a comprehensive library of code patterns, full lifecycle workflows, and professional tooling context.
 author: Frédéric Guigand
 version: 1.3
+category: "Language-Specific"
 tags: ["google-apps-script", "gas", "api", "best-practices", "security", "workflow", "gotchas", "architecture", "maintenance", "code-patterns"]
 globs: ["**/*.gs", "appsscript.json"]
 ---

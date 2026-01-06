@@ -2,6 +2,7 @@
 description: Guidelines for writing Next.js apps with Supabase Auth
 author: https://github.com/nickbaumann98
 version: 1.0
+category: "Web Development"
 tags: ["nextjs", "supabase", "auth", "ssr", "guide", "best-practices"]
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 ---

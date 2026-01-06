@@ -2,6 +2,7 @@
 description: Workspace-specific rules for BrainStorming workspace - optimized for rapid prototyping and project management
 author: Workspace System
 version: 3.0
+category: "Workflow"
 tags: [workspace-rules, prototyping, project-management, brain-storming]
 globs: ["**/*"]
 ---

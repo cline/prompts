@@ -1,3 +1,12 @@
+---
+description: Guidelines for creating standardized Cline workflow files
+author: Community
+version: 1.0
+category: "Workflow"
+tags: ["workflow", "guidelines", "documentation", "task-automation"]
+globs: [".clinerules/workflows/**/*.md"]
+---
+
 ## Brief overview
 This document provides guidelines for creating standardized Cline workflow files. Workflows are stored in the `.clinerules/workflows` directory and follow a specific structure to ensure consistency and proper execution.
 

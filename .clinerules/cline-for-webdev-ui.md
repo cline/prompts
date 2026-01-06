@@ -2,6 +2,7 @@
 description: Comprehensive guidelines for maintaining and using the Web Design Bank for consistent UI/UX design across sessions
 author: https://github.com/turiddu25
 version: 1.0
+category: "Web Development"
 tags: ["web-design", "ui-ux", "documentation", "design-system", "accessibility"]
 globs: ["**/*.html", "**/*.css", "**/*.js", "designs/**/*"]
 ---

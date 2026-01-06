@@ -2,6 +2,7 @@
 description: Describes Cline's Memory Bank system, its structure, and workflows for maintaining project knowledge across sessions.
 author: https://github.com/nickbaumann98 https://github.com/chisleu
 version: 1.0
+category: "Cline Core"
 tags: ["memory-bank", "knowledge-base", "core-behavior", "documentation-protocol"]
 globs: ["memory-bank/**/*.md", "*"]
 ---
@@ -154,4 +155,3 @@ flowchart TD
 ## Reminder
 
 After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work. It must be maintained with precision and clarity — especially with time-aware reasoning. Read, interpret, and act on temporal data carefully.
-

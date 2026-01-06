@@ -2,6 +2,7 @@
 description: Guides Cline on how to spawn and manage Claude Code subagents
 author: https://github.com/nickbaumann98
 version: 1.0
+category: "Cline Core"
 tags: ["subagents", "claude code", "multi-agent"]
 globs: ["*"]
 ---

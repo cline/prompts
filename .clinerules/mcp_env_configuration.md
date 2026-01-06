@@ -1,3 +1,12 @@
+---
+description: Guidelines for managing environment variables and configuration in MCP servers
+author: Community
+version: 1.0
+category: "MCP Development"
+tags: ["mcp", "environment", "configuration", "best-practices"]
+globs: ["**/*.env", "**/.env.example", "**/mcp-server/**/*"]
+---
+
 # Environment Configuration in MCP Servers
 
 ## Overview
