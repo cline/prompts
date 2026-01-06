@@ -2,6 +2,7 @@
 description: A guide for effectively using the sequentialthinking MCP tool for dynamic and reflective problem-solving.
 author: https://github.com/rafaelkallis
 version: 1.0
+category: "MCP Development"
 tags: ["mcp", "sequentialthinking", "problem-solving", "workflow-guide", "ai-guidance"]
 globs: ["*"] # Relevant for any task requiring complex thought processes
 ---
@@ -116,4 +117,3 @@ This illustrates how Cline might use the tool iteratively.
 *   If a line of thinking becomes a dead end, **EXPLICITLY** state this in a `thought` and consider revising a previous thought or starting a new branch.
 
 This guide should help Cline leverage the `sequentialthinking` MCP tool to its full potential.
-

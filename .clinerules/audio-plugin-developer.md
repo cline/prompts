@@ -2,6 +2,7 @@
 description: A comprehensive behavioral and knowledge-based rule for an AI agent developing professional-grade audio plugins using the JUCE framework in C++. This rule enforces an elite standard of engineering, covering real-time safety, DSP, mathematics, architecture, and GUI design.
 author: Frédéric Guigand
 version: 1.1
+category: "General Development"
 tags: ["c++", "juce", "dsp", "audio-plugin", "real-time", "performance", "security", "best-practices", "architecture", "gui", "vst", "au"]
 globs: ["**/*.cpp", "**/*.h", "**/*.hpp"]
 ---

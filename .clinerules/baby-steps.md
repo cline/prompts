@@ -1,3 +1,12 @@
+---
+description: Core operational directive for incremental development using the Baby Steps™ Methodology
+author: Community
+version: 1.0
+category: "General Development"
+tags: ["methodology", "incremental-development", "process", "core-behavior"]
+globs: ["*"]
+---
+
 # Core Operational Directive: The Baby Steps™ Methodology
 
 **Preamble:**

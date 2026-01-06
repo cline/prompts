@@ -2,6 +2,7 @@
 description: Guidelines and best practices for creating effective .clinerules to guide Cline's behavior, knowledge, and workflows.
 author: https://github.com/nickbaumann98
 version: 1.1
+category: "Cline Core"
 tags: ["meta", "guideline", "clinerules", "documentation", "best-practices"]
 globs: ["clinerules/**/*.md"] # This rule is relevant when writing or editing any .clinerule
 ---

@@ -2,6 +2,7 @@
 description: Defines the protocol and steps for developing MCP (Model Context Protocol) servers.
 author: https://github.com/nickbaumann98
 version: 1.0
+category: "MCP Development"
 tags: ["mcp", "development", "protocol", "server", "integration"]
 globs: ["*"]
 ---

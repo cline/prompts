@@ -2,6 +2,7 @@
 description: A comprehensive guide to software engineering best practices, covering architecture, debugging, development processes, code quality, collaboration, security, and reliability.
 author: https://github.com/NightTrek
 version: 1.0
+category: "General Development"
 tags: ["software-engineering", "gemini", "architecture", "development-guide", "code-quality", "security", "reliability"]
 globs: ["*"]
 ---

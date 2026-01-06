@@ -2,6 +2,7 @@
 description: "AI Assistant Guide for Supporting Business Analysts with User Stories"
 author: "https://github.com/cuipengfei"
 version: "1.0"
+category: "Project Management"
 tags: ["ai assistant", "business analyst", "user stories", "agile", "workflow"]
 globs: ["*"]
 title: "AI Assistant Guide for BAs"

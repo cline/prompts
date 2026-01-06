@@ -2,6 +2,7 @@
 description: Provides guidelines and best practices for creating and working with Slidev presentation projects.
 author: https://github.com/nickbaumann98
 version: 1.0
+category: "Presentation Tools"
 tags: ["slidev", "slides", "markdown", "vue", "vite", "guide"]
 globs: ["slides.md", "**/slides.md", "*.vue", "layouts/**/*.vue", "components/**/*.vue"]
 ---
