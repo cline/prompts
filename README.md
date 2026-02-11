@@ -1,6 +1,6 @@
 # Cline Community Prompts
 
-This repository serves as a community-driven collection of .clinerules & workflows for Cline.
+A community-driven collection of rules and workflows for [Cline](https://cline.bot). Browse and apply these prompts directly from the **Prompts Library** inside the Cline extension.
 
 ## Contributing
 
